@@ -4,8 +4,8 @@
 Vue+ElementUI
  ![image](http://tong3d.oss-cn-shenzhen.aliyuncs.com/rightClick.png)
 # 使用
-import Tools from "./tong-tools"
-Vue.use(Tools)
+```import Tools from "./tong-tools"
+Vue.use(Tools)```
 # 右击菜单显示为例
 菜单对显示的层数没有限制,对v-for循环进行取巧处理，实现类似函数自调用的循环遍历
 ```<tong-popup-menu ref="popupContext" @select="onPopupSelect" :data="popupDatas"></tong-popup-menu>
